@@ -1,0 +1,65 @@
+# Mass spectrometry data files (too large for git)
+*.mzML
+*.mzXML
+*.raw
+*.RAW
+*.d/
+
+# Generated output files
+*.gif
+*.png
+*_Theo_Exp.png
+*_spectrum.png
+*_optimization_animation.gif
+centroid.mzML
+
+# Processed CSV outputs (can be regenerated)
+*_processed.csv
+sorted_peptides.csv
+
+# Excel files
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.~lock.*
+
+# Jupyter
+.ipynb_checkpoints/
